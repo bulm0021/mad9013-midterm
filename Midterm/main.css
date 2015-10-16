@@ -1,0 +1,221 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: "Cantata One" "Times New Roman" sans-serif;
+}
+
+h1{
+ color: white;
+}
+
+@media all and (max-width:35em)
+    {
+        .masthead
+        {
+            text-align: center;
+            background: url("http://lorempixel.com/600/400/cats/");
+            min-height: 8em;
+        }
+        
+        .mainnav li 
+        {
+            text-align: center;
+            background-color: #37B744;
+            
+        }
+        
+        .mainnav li:hover
+        {
+            background-color: #00A911;
+        }
+        
+        body
+        {
+            background-color: #00A911;
+        }
+        
+        .wrapper
+        {
+            padding-left: 10%;
+            padding-right: 10%;
+            margin: 0, auto;
+        }
+        img
+        {
+            max-width: 100%;
+        }
+        
+        ul
+        {
+            list-style: none;
+        }
+        
+        .footer
+        {
+            text-align: center;
+            background-color: #00760C;
+            
+        }
+        
+    }
+
+@media all and (min-width:35em) and (max-width:60em)
+    {
+       .masthead
+        {
+            text-align: center;
+            background: url("http://lorempixel.com/1920/1080/cats/") no-repeat center center;
+            background-color: #00A911;
+            min-height: 100px;
+        }
+        
+        .mainnav
+        {
+            
+        }
+        
+        .mainnav li 
+        {
+            background-color: #37B744;
+            text-align: center;
+            display: inline;
+            width: 25%;
+            float:left;
+            
+        }
+        
+        .mainnav li:hover
+        {
+           background-color: #00A911; 
+        }
+        
+        .wrapper
+        {
+            padding-left: 10%;
+            padding-right: 10%;
+            margin: 0, auto;
+        }
+        img
+        {
+            max-width: 100%;
+            display: block;
+        }
+        
+        ul
+        {
+            list-style: none;
+        }
+        
+        
+        body
+        {
+           background-color: #00A911; 
+        }
+        .content
+        {
+         width:63%;
+         float:left;
+         padding-right: 10%;
+             
+        }
+        .side
+        {
+            float:right;
+            width:37%;
+            padding-top: 8px;
+        }
+      
+        .footer
+        {  
+            clear: both;
+            padding: 30px;
+            text-align: center;
+            background:#00760C; 
+        }
+        
+       
+    }
+
+@media all and (min-width:60em)
+    {
+       .masthead
+        {
+            text-align: center;
+            background: url("http://lorempixel.com/1920/1080/cats/") no-repeat center center;
+            background-color: #00A911;
+            min-height: 100px;
+            clear: both;
+            margin-bottom: 5%;
+        }
+       .mainnav
+        {
+            float: left;
+            padding-bottom: 100%;
+            background-image: url("http://lorempixel.com/1920/1080/cats/") ;
+            background-repeat: no-repeat;
+            max-width: 10%;
+        }
+        .mainnav img
+        {
+         max-width: 5%;   
+        }
+        .mainnav li 
+        {
+            background-color: #37B744;
+            padding-bottom: 25%;
+            
+        }
+        .mainnav li:hover
+        {
+            background-color: #00A911;
+        }
+        
+        body
+        {
+            background-color: #00A911; 
+            clear: left;
+        }
+        .content
+        {
+            float: left;
+            padding: 1%;
+            -webkit-column-count:2;
+            -moz-column-count:  2;
+            -webkit-column-width: 25%;
+            -moz-column-width:25%;
+            -webkit-column-gap: 1em;
+            -moz-column-gap: 1%;
+            max-width: 60%;
+            
+        }
+        .side
+        {
+            float: left;
+            -webkit-column-count: 1;
+            -moz-column-count: 1;
+            -webkit-column-width: 25%;
+            -moz-column-width:25%;
+            -webkit-column-gap: 1em;
+            -moz-column-gap: 1em;
+            max-width: 30%;
+            
+            
+        }
+        
+        
+        .footer
+        {  
+            clear: both;
+            padding: 30px;
+            text-align: center;
+            background:#00760C; 
+        }
+        
+        img
+        { 
+            max-width: 100%
+        }
+    }
+
+
