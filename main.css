@@ -179,13 +179,13 @@ h1{
         .content
         {
             float: left;
-            padding: 1%;
+            padding: 0.9%;
             -webkit-column-count:2;
             -moz-column-count:  2;
             -webkit-column-width: 25%;
             -moz-column-width:25%;
             -webkit-column-gap: 1em;
-            -moz-column-gap: 1%;
+            -moz-column-gap: 1em;
             max-width: 60%;
             
         }
@@ -206,10 +206,12 @@ h1{
         
         .footer
         {  
-            clear: both;
+            
             padding: 30px;
             text-align: center;
-            background:#00760C; 
+            background:#00760C;
+			clear: both;
+			
         }
         
         img
